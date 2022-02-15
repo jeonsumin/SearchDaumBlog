@@ -23,6 +23,9 @@
 		DE7F9EE327BB6BCA00DCE662 /* BlogListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EE227BB6BCA00DCE662 /* BlogListCell.swift */; };
 		DE7F9EE527BB6BD600DCE662 /* BlogListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EE427BB6BD600DCE662 /* BlogListCellData.swift */; };
 		DE7F9EEE27BB718F00DCE662 /* AlertActionConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EED27BB718F00DCE662 /* AlertActionConvertible.swift */; };
+		DE7F9EF027BB7A5900DCE662 /* DKBlog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EEF27BB7A5900DCE662 /* DKBlog.swift */; };
+		DE7F9EF227BB7CB700DCE662 /* SearchBlogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EF127BB7CB700DCE662 /* SearchBlogAPI.swift */; };
+		DE7F9EF527BB7D5700DCE662 /* SearchBlogNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EF427BB7D5700DCE662 /* SearchBlogNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		DE7F9EE227BB6BCA00DCE662 /* BlogListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCell.swift; sourceTree = "<group>"; };
 		DE7F9EE427BB6BD600DCE662 /* BlogListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCellData.swift; sourceTree = "<group>"; };
 		DE7F9EED27BB718F00DCE662 /* AlertActionConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertActionConvertible.swift; sourceTree = "<group>"; };
+		DE7F9EEF27BB7A5900DCE662 /* DKBlog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKBlog.swift; sourceTree = "<group>"; };
+		DE7F9EF127BB7CB700DCE662 /* SearchBlogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBlogAPI.swift; sourceTree = "<group>"; };
+		DE7F9EF427BB7D5700DCE662 /* SearchBlogNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBlogNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,9 @@
 			children = (
 				DE7F9EB927BB653600DCE662 /* AppDelegate.swift */,
 				DE7F9EBB27BB653600DCE662 /* SceneDelegate.swift */,
-				DE7F9EE627BB6BE600DCE662 /* Presentation */,
 				DE7F9EE727BB6BF800DCE662 /* Entites */,
+				DE7F9EF327BB7CBC00DCE662 /* Network */,
+				DE7F9EE627BB6BE600DCE662 /* Presentation */,
 				DE7F9EC227BB653700DCE662 /* Assets.xcassets */,
 				DE7F9EC427BB653700DCE662 /* LaunchScreen.storyboard */,
 				DE7F9EC727BB653700DCE662 /* Info.plist */,
@@ -100,6 +107,7 @@
 			children = (
 				DE7F9EE427BB6BD600DCE662 /* BlogListCellData.swift */,
 				DE7F9EED27BB718F00DCE662 /* AlertActionConvertible.swift */,
+				DE7F9EEF27BB7A5900DCE662 /* DKBlog.swift */,
 			);
 			path = Entites;
 			sourceTree = "<group>";
@@ -146,6 +154,15 @@
 				DE7F9EE227BB6BCA00DCE662 /* BlogListCell.swift */,
 			);
 			path = SubComponent;
+			sourceTree = "<group>";
+		};
+		DE7F9EF327BB7CBC00DCE662 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F9EF127BB7CB700DCE662 /* SearchBlogAPI.swift */,
+				DE7F9EF427BB7D5700DCE662 /* SearchBlogNetwork.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +249,11 @@
 			files = (
 				DE7F9EDB27BB65E200DCE662 /* MainViewController.swift in Sources */,
 				DE7F9EE327BB6BCA00DCE662 /* BlogListCell.swift in Sources */,
+				DE7F9EF027BB7A5900DCE662 /* DKBlog.swift in Sources */,
 				DE7F9EE127BB6BBC00DCE662 /* BlogList.swift in Sources */,
+				DE7F9EF227BB7CB700DCE662 /* SearchBlogAPI.swift in Sources */,
 				DE7F9EE527BB6BD600DCE662 /* BlogListCellData.swift in Sources */,
+				DE7F9EF527BB7D5700DCE662 /* SearchBlogNetwork.swift in Sources */,
 				DE7F9EDD27BB670A00DCE662 /* SearchBar.swift in Sources */,
 				DE7F9EBA27BB653600DCE662 /* AppDelegate.swift in Sources */,
 				DE7F9EDF27BB6A4D00DCE662 /* FilterView.swift in Sources */,
