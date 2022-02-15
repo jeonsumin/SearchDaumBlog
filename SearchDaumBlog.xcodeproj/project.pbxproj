@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		DE7F9EBA27BB653600DCE662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EB927BB653600DCE662 /* AppDelegate.swift */; };
 		DE7F9EBC27BB653600DCE662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EBB27BB653600DCE662 /* SceneDelegate.swift */; };
-		DE7F9EBE27BB653600DCE662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EBD27BB653600DCE662 /* ViewController.swift */; };
-		DE7F9EC127BB653600DCE662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7F9EBF27BB653600DCE662 /* Main.storyboard */; };
 		DE7F9EC327BB653700DCE662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7F9EC227BB653700DCE662 /* Assets.xcassets */; };
 		DE7F9EC627BB653700DCE662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7F9EC427BB653700DCE662 /* LaunchScreen.storyboard */; };
+		DE7F9ECF27BB656400DCE662 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = DE7F9ECE27BB656400DCE662 /* RxCocoa */; };
+		DE7F9ED127BB656400DCE662 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = DE7F9ED027BB656400DCE662 /* RxRelay */; };
+		DE7F9ED327BB656400DCE662 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE7F9ED227BB656400DCE662 /* RxSwift */; };
+		DE7F9ED627BB658900DCE662 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DE7F9ED527BB658900DCE662 /* Kingfisher */; };
+		DE7F9ED927BB659600DCE662 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DE7F9ED827BB659600DCE662 /* SnapKit */; };
+		DE7F9EDB27BB65E200DCE662 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EDA27BB65E200DCE662 /* MainViewController.swift */; };
+		DE7F9EDD27BB670A00DCE662 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EDC27BB670A00DCE662 /* SearchBar.swift */; };
+		DE7F9EDF27BB6A4D00DCE662 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EDE27BB6A4D00DCE662 /* FilterView.swift */; };
+		DE7F9EE127BB6BBC00DCE662 /* BlogList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EE027BB6BBC00DCE662 /* BlogList.swift */; };
+		DE7F9EE327BB6BCA00DCE662 /* BlogListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EE227BB6BCA00DCE662 /* BlogListCell.swift */; };
+		DE7F9EE527BB6BD600DCE662 /* BlogListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EE427BB6BD600DCE662 /* BlogListCellData.swift */; };
+		DE7F9EEE27BB718F00DCE662 /* AlertActionConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F9EED27BB718F00DCE662 /* AlertActionConvertible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE7F9EB627BB653600DCE662 /* SearchDaumBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchDaumBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7F9EB927BB653600DCE662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE7F9EBB27BB653600DCE662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE7F9EBD27BB653600DCE662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE7F9EC027BB653600DCE662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE7F9EC227BB653700DCE662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE7F9EC527BB653700DCE662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE7F9EC727BB653700DCE662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7F9EDA27BB65E200DCE662 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DE7F9EDC27BB670A00DCE662 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		DE7F9EDE27BB6A4D00DCE662 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		DE7F9EE027BB6BBC00DCE662 /* BlogList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogList.swift; sourceTree = "<group>"; };
+		DE7F9EE227BB6BCA00DCE662 /* BlogListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCell.swift; sourceTree = "<group>"; };
+		DE7F9EE427BB6BD600DCE662 /* BlogListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogListCellData.swift; sourceTree = "<group>"; };
+		DE7F9EED27BB718F00DCE662 /* AlertActionConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertActionConvertible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7F9ED627BB658900DCE662 /* Kingfisher in Frameworks */,
+				DE7F9ED327BB656400DCE662 /* RxSwift in Frameworks */,
+				DE7F9ED127BB656400DCE662 /* RxRelay in Frameworks */,
+				DE7F9ECF27BB656400DCE662 /* RxCocoa in Frameworks */,
+				DE7F9ED927BB659600DCE662 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +78,74 @@
 			children = (
 				DE7F9EB927BB653600DCE662 /* AppDelegate.swift */,
 				DE7F9EBB27BB653600DCE662 /* SceneDelegate.swift */,
-				DE7F9EBD27BB653600DCE662 /* ViewController.swift */,
-				DE7F9EBF27BB653600DCE662 /* Main.storyboard */,
+				DE7F9EE627BB6BE600DCE662 /* Presentation */,
+				DE7F9EE727BB6BF800DCE662 /* Entites */,
 				DE7F9EC227BB653700DCE662 /* Assets.xcassets */,
 				DE7F9EC427BB653700DCE662 /* LaunchScreen.storyboard */,
 				DE7F9EC727BB653700DCE662 /* Info.plist */,
 			);
 			path = SearchDaumBlog;
+			sourceTree = "<group>";
+		};
+		DE7F9EE627BB6BE600DCE662 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F9EE927BB709400DCE662 /* MainViewController */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DE7F9EE727BB6BF800DCE662 /* Entites */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F9EE427BB6BD600DCE662 /* BlogListCellData.swift */,
+				DE7F9EED27BB718F00DCE662 /* AlertActionConvertible.swift */,
+			);
+			path = Entites;
+			sourceTree = "<group>";
+		};
+		DE7F9EE827BB708700DCE662 /* SubComponent */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F9EEB27BB70B900DCE662 /* BlogListView */,
+				DE7F9EEA27BB70B200DCE662 /* SearchBar */,
+			);
+			path = SubComponent;
+			sourceTree = "<group>";
+		};
+		DE7F9EE927BB709400DCE662 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F9EDA27BB65E200DCE662 /* MainViewController.swift */,
+				DE7F9EE827BB708700DCE662 /* SubComponent */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		DE7F9EEA27BB70B200DCE662 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F9EDC27BB670A00DCE662 /* SearchBar.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		DE7F9EEB27BB70B900DCE662 /* BlogListView */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F9EE027BB6BBC00DCE662 /* BlogList.swift */,
+				DE7F9EEC27BB70C900DCE662 /* SubComponent */,
+			);
+			path = BlogListView;
+			sourceTree = "<group>";
+		};
+		DE7F9EEC27BB70C900DCE662 /* SubComponent */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F9EDE27BB6A4D00DCE662 /* FilterView.swift */,
+				DE7F9EE227BB6BCA00DCE662 /* BlogListCell.swift */,
+			);
+			path = SubComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +164,13 @@
 			dependencies = (
 			);
 			name = SearchDaumBlog;
+			packageProductDependencies = (
+				DE7F9ECE27BB656400DCE662 /* RxCocoa */,
+				DE7F9ED027BB656400DCE662 /* RxRelay */,
+				DE7F9ED227BB656400DCE662 /* RxSwift */,
+				DE7F9ED527BB658900DCE662 /* Kingfisher */,
+				DE7F9ED827BB659600DCE662 /* SnapKit */,
+			);
 			productName = SearchDaumBlog;
 			productReference = DE7F9EB627BB653600DCE662 /* SearchDaumBlog.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +199,11 @@
 				Base,
 			);
 			mainGroup = DE7F9EAD27BB653600DCE662;
+			packageReferences = (
+				DE7F9ECD27BB656400DCE662 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				DE7F9ED427BB658900DCE662 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				DE7F9ED727BB659600DCE662 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = DE7F9EB727BB653600DCE662 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +220,6 @@
 			files = (
 				DE7F9EC627BB653700DCE662 /* LaunchScreen.storyboard in Resources */,
 				DE7F9EC327BB653700DCE662 /* Assets.xcassets in Resources */,
-				DE7F9EC127BB653600DCE662 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +230,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE7F9EBE27BB653600DCE662 /* ViewController.swift in Sources */,
+				DE7F9EDB27BB65E200DCE662 /* MainViewController.swift in Sources */,
+				DE7F9EE327BB6BCA00DCE662 /* BlogListCell.swift in Sources */,
+				DE7F9EE127BB6BBC00DCE662 /* BlogList.swift in Sources */,
+				DE7F9EE527BB6BD600DCE662 /* BlogListCellData.swift in Sources */,
+				DE7F9EDD27BB670A00DCE662 /* SearchBar.swift in Sources */,
 				DE7F9EBA27BB653600DCE662 /* AppDelegate.swift in Sources */,
+				DE7F9EDF27BB6A4D00DCE662 /* FilterView.swift in Sources */,
 				DE7F9EBC27BB653600DCE662 /* SceneDelegate.swift in Sources */,
+				DE7F9EEE27BB718F00DCE662 /* AlertActionConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DE7F9EBF27BB653600DCE662 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE7F9EC027BB653600DCE662 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE7F9EC427BB653700DCE662 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +384,6 @@
 				INFOPLIST_FILE = SearchDaumBlog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +411,6 @@
 				INFOPLIST_FILE = SearchDaumBlog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +448,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE7F9ECD27BB656400DCE662 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		DE7F9ED427BB658900DCE662 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		DE7F9ED727BB659600DCE662 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE7F9ECE27BB656400DCE662 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE7F9ECD27BB656400DCE662 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		DE7F9ED027BB656400DCE662 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE7F9ECD27BB656400DCE662 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		DE7F9ED227BB656400DCE662 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE7F9ECD27BB656400DCE662 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		DE7F9ED527BB658900DCE662 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE7F9ED427BB658900DCE662 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		DE7F9ED827BB659600DCE662 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE7F9ED727BB659600DCE662 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE7F9EAE27BB653600DCE662 /* Project object */;
 }
